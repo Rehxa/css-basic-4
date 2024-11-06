@@ -1,0 +1,66 @@
+body{
+    background-color: lightgray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 600px;
+    width: 400px;
+    background-color:  black;
+    filter: blur(0px);
+    border: 5px solid white;
+    border-radius: 2em;
+    box-shadow: -10px -15px 10px rgb(81, 124, 225) inset, 10px 15px 10px rgb(149, 35, 242) inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+img{
+    border-radius: 10px;
+    border: 5px solid white;
+    box-shadow: -5px -10px 20px rgb(81, 124, 225), 5px 10px 20px rgb(149, 35, 242);
+
+}
+h1,p{
+    text-align: center;
+    color: white;
+    text-shadow: -5px -10px 10px rgb(81, 124, 225), 5px 10px 10px rgb(149, 35, 242);
+}
+button{
+    background-color: transparent;
+    box-shadow: -10px -15px 20px rgb(81, 124, 225) inset, 10px 15px 20px rgb(149, 35, 242) inset;
+    border: 2px solid rgb(130, 162, 238);
+    color: lightgray;
+    border-radius: 1.2em;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor:pointer;
+}
+.info{
+    margin-top: 40px;
+    background-color: black;
+    height: 250px;
+    width: 450px;
+    padding: 1em;
+}
+.social{
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 240px;
+    padding: 1.5em;
+}
+button:hover{
+    color: white;
+    box-shadow: -10px -15px 20px rgb(81, 124, 225) inset, 10px 15px 20px rgb(149, 35, 242) inset,
+    -5px -10px 20px rgb(81, 124, 225) , 5px 10px 20px rgb(149, 35, 242) ;
+
+}
